@@ -59,10 +59,6 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
 
 <b>
 
-MAIN MENU
-
-![Image](https://github.com/user-attachments/assets/3f647f6b-d5ce-4774-b015-31221b9815b4)
-
 
 [ SERVICES ] <br>
 <br>
