@@ -8,34 +8,6 @@ GREENBG="\033[42;37m"
 REDBG="\033[41;37m"
 NC='\e[0m'
 MYIP=$(curl -sS ipv4.icanhazip.com)
-#TARIKH EXP
-data_ip="https://raw.githubusercontent.com/EZ-Code00/allow/main/ipvps.conf"
-function checking_sc() {
-rm -f /usr/bin/e
-valid=$(wget -qO- $data_ip | grep $MYIP | awk '{print $4}')
-echo "$valid" > /usr/bin/e
-}
-checking_sc
-exp=$(cat /usr/bin/e)
-######################################
-# // DETAIL ORDER IZIN IP
-#username=$(cat /usr/bin/user)
-rm -f >/usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.com/EZ-Code00/allow/main/ipvps.conf | grep -wE $MYIP | awk '{print $2}')
-echo "$username" >/usr/bin/user
-oid=$(cat /usr/bin/ver)
-exp=$(cat /usr/bin/e)
-# CERTIFICATE STATUS
-d1=$(date -d "$exp" +%s)
-d2=$(date -d "$today" +%s)
-certifacate=$(( (d1 - d2) / 86400 ))
-######################################
-clear
-# // DAYS LEFT
-d1=$(date -d "$valid" +%s)
-d2=$(date -d "$today" +%s)
-#certifacate=$(((d1 - d2) / 86400))
-clear
 ######################################
 # // GETTINGS SYSTEM
 #Getting OS Information
