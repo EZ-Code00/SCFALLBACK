@@ -28,7 +28,7 @@ date
 echo -e "[ \e[32;1mINFO\e[0m ] INSTALLATION XRAY CORE . . ."
 
 #INSTALLATION XRAY CORE
-xraycore_link="https://github.com/XTLS/Xray-core/releases/download/v1.7.2/xray-linux-64.zip"
+xraycore_link="https://raw.githubusercontent.com/EZ-Code00/SCFALLBACK/main/INSTALL/Xray-linux-64-v1.7.zip"
 
 #MAKE MAIN DIRECTORY XRAY
 mkdir -p /usr/bin/xray
