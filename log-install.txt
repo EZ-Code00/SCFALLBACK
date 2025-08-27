@@ -1,0 +1,45 @@
+====================[PREMIUM SCRIPT]===================
+
+   >>> SERVICE & PORT
+
+    [INFORMATION SSH & OPENVPN]
+    ---------------------------
+   - OPENSSH                 : 22
+   - OPENVPN                 : TCP 1194, UDP 2200
+   - OPENVPN SSL             : 110
+   - SSH SLOW DNS            : ANY PORT USED
+   - STUNNEL                 : 443
+   - DROPBEAR                : 109, 143
+   - OHP SSH                 : 8686
+   - OHP OPENVPN             : 8787
+   - SSH WS TLS              : 443
+   - SSH WS NTLS             : 80
+   - SSH UDP CUSTOM          : 1-65535
+
+    [INFORMATION SQUID,BADVPN,NGINX]
+    --------------------------------
+   - SQUID PROXY             : 3128 (limit to IP Server)
+   - BADVPN                  : 7100, 7200, 7300
+   - NGINX                   : 81
+
+    [INFORMATION WIREGUARD]
+    -----------------------
+   - WIREGUARD               : 5820
+
+    [INFORMATION XRAY]
+    ------------------
+   - TROJAN WS TLS           : 443
+   - VLESS TCP XTLS          : 443
+   - VMESS/VLESS WS TLS      : 443
+   - TROJAN WS NTLS          : 80
+   - VMESS/VLESS WS NTLS     : 80
+   - VLESS WS NTLS MULTIPATH : 8080
+   ----------------------------------------------------
+
+   >>> SERVER INFORMATION & OTHER FEATURE
+   - TIMEZONE                : ASIA/KUALA_LUMPUR (GMT +8)
+   - IPTABLES                : [ON]
+   - IPV6                    : [OFF]
+   - AUTO DELETE EXPIRED ACCOUNT VPN
+   - INSTALLATION LOG --> /root/log-install.txt
+-------------------- SCRIPT EZ-CODE -------------------
