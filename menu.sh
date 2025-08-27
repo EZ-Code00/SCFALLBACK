@@ -207,8 +207,6 @@ fi
 echo -e " \033[1;37m  $NC\033[1;37m    ❈ CPU          \033[1;37m: \033[1;37m$CORE Core $cpu_usage"
 echo -e " \033[1;37m  $NC\033[1;37m    ❈ IP VPS       \033[1;37m: \033[1;37m$MYIP${NC}"
 echo -e " \033[1;37m  $NC\033[1;37m    ❈ DOMAIN       \033[1;37m: $(cat /usr/local/etc/xray/domain)"
-echo -e " \033[1;37m  $NC\033[1;37m    ❈ CLIENTS      \033[1;37m: $(cat /usr/bin/user)"
-echo -e " \033[1;37m  $NC\033[1;37m    ❈ ACTIVE DATE  \033[1;37m: $exp ${green} ($certifacate days)"
 echo -e " \033[94;1m      ══════════════════════════════════════════════${NC}"
 }
 
