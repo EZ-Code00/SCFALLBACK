@@ -41,6 +41,8 @@ DILARANG UNTUK MENJUAL SCRIPT INI<br>
 1. Jika ada yang jual report to admin di bawah
 2. Jangan tertipu kerana script ini percuma ✅
 
+
+
 PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTINGS)<br>
 <br>
 
