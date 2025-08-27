@@ -402,97 +402,50 @@ cat> /usr/local/etc/xray/vlessws.json << END
     "loglevel": "info"
   },
   "inbounds": [
-      {
-      "port": 8080,
+    {
+     "port": "8080",
       "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "${uuid}"
+            "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
+            "level": 0,
+            "email": ""
 #vless-ws
           }
         ],
         "decryption": "none"
       },
+      "encryption": "none",
       "streamSettings": {
-       "network": "ws",
-        "security": "none",
-         "wsSettings": {
-          "alpn": ["http/1.1"]
-                }
-            }
+        "network": "ws",
+	"security": "none",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": ""
+          }
+         },
+        "quicSettings": {},
+        "sockopt": {
+          "mark": 0,
+          "tcpFastOpen": true
         }
-    ],
-"outbounds": [
-    {
-      "protocol": "freedom",
-      "settings": {}
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {},
-      "tag": "blocked"
-    }
-  ],
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "ip": [
-          "0.0.0.0/8",
-          "10.0.0.0/8",
-          "100.64.0.0/10",
-          "169.254.0.0/16",
-          "172.16.0.0/12",
-          "192.0.0.0/24",
-          "192.0.2.0/24",
-          "192.168.0.0/16",
-          "198.18.0.0/15",
-          "198.51.100.0/24",
-          "203.0.113.0/24",
-          "::1/128",
-          "fc00::/7",
-          "fe80::/10"
-        ],
-        "outboundTag": "blocked"
       },
-      {
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "type": "field"
-      },
-      {
-        "type": "field",
-        "outboundTag": "blocked",
-        "protocol": [
-          "bittorrent"
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
         ]
       }
-    ]
-  },
-  "stats": {},
-  "api": {
-    "services": [
-      "StatsService"
-    ],
-    "tag": "api"
-  },
-  "policy": {
-    "levels": {
-      "0": {
-        "statsUserDownlink": true,
-        "statsUserUplink": true
-      }
-    },
-    "system": {
-      "statsInboundUplink": true,
-      "statsInboundDownlink": true,
-      "statsOutboundUplink" : true,
-      "statsOutboundDownlink" : true
     }
-  }
+  ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+		]
 }
 END
 
