@@ -185,7 +185,7 @@ fi
 
 clear
 echo -e " \033[94;1m╭════════════════════════════════════════════════════════╮${NC}"
-echo -e " \e[94;1m│\e[0m \033[1;37m               WELCOME TO PREMIUM SCRIPT               \e[94;1m│"
+echo -e " \e[94;1m│\e[0m \033[1;37m               WELCOME TO EZ-CODE SCRIPT               \e[94;1m│"
 echo -e " \033[94;1m╰════════════════════════════════════════════════════════╯${NC}"
 function Service_System_Operating() {
 echo -e " \033[94;1m      ══════════════════════════════════════════════${NC}"
