@@ -4,7 +4,7 @@
 <h2 align="center">
 Auto Script VPS
 Created By EZ-Code
-<img src="https://img.shields.io/badge/VERSION-2-blue.svg"></h2>
+<img src="https://img.shields.io/badge/FREE-VERSION-blue.svg"></h2>
 
 </p> 
 <h2 align="center"> Supported Linux Distribution</h2>
