@@ -55,10 +55,9 @@ echo -e "  $blue[${white}•8${blue}] ${white}Show users list ssh & openvpn$NC"
 echo -e "  $blue[${white}•9${blue}] ${white}Lock users ssh & openvpn$NC"
 echo -e "  $blue[${white}10${blue}] ${white}Unlock users ssh & openvpn$NC"
 echo -e "  $blue[${white}11${blue}] ${white}Change password users ssh & openvpn$NC"
-echo -e "  $blue[${white}12${blue}] ${white}Turn on/off multilogin openvpn$NC"
 echo -e "  $blue[${white}•x${blue}] ${red}Exit/Main menu$NC"
 echo -e ""
-echo -ne "  $(echo -e     ${white}Select from options  ${blue}[${NC}1-12 or x${blue}]${NC} :) " && read ssh
+echo -ne "  $(echo -e     ${white}Select from options  ${blue}[${NC}1-11 or x${blue}]${NC} :) " && read ssh
 echo -e ""
 case $ssh in
 1)
@@ -93,9 +92,6 @@ user-unlock
 ;;
 11)
 user-password
-;;
-12)
-duplicate
 ;;
 X)
 menu
