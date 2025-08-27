@@ -35,6 +35,12 @@ Created By EZ-Code
 ![Hits](https://img.shields.io/badge/XRAY-Trojan-f34b20?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
 </h2>
 
+DILARANG UNTUK MENJUAL SCRIPT INI<br>
+<br>
+
+1. Jika ada yang jual report to admin di bawah
+2. Jangan tertipu kerana script ini percuma ✅
+
 PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTINGS)<br>
 <br>
 
