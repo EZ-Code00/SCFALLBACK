@@ -258,7 +258,7 @@ case $hallo in
 14) clear ; cert ;;
 15) clear ; info ;;
 16) clear ; clear-log ;;
-17) clear ; xray-update ;;
+17) clear ; echo -e "COMING SOON" ; sleep 2 ; menu ;;
 18) clear ; script-update ;;
 19) clear ; passwd ;;
 20) clear ; reboot ;;
