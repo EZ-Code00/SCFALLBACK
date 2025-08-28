@@ -4,7 +4,7 @@
 <h2 align="center">
 Auto Script VPS
 Created By EZ-Code
-<img src="https://img.shields.io/badge/VERSION-2-blue.svg"></h2>
+<img src="https://img.shields.io/badge/FREE-VERSION-blue.svg"></h2>
 
 </p> 
 <h2 align="center"> Supported Linux Distribution</h2>
@@ -29,7 +29,6 @@ Created By EZ-Code
 ![Hits](https://img.shields.io/badge/SSH-Service-8020f3?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
 ![Hits](https://img.shields.io/badge/OVPN-Service-8020f3?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
 ![Hits](https://img.shields.io/badge/WIREGUARD-Service-8020f3?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
-![Hits](https://img.shields.io/badge/Shadowsocks-Obfs-8020f3?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
 ![Hits](https://img.shields.io/badge/XRAY-Vmess-f34b20?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
 ![Hits](https://img.shields.io/badge/XRAY-VLess-f34b20?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
 ![Hits](https://img.shields.io/badge/XRAY-Trojan-f34b20?style=for-the-badge&logo=Cloudflare&logoColor=white&edge_flat=false)
@@ -67,10 +66,6 @@ PLEASE MAKE SURE YOUR DOMAIN SETTINGS IN YOUR CLOUDFLARE AS BELOW (SSL/TLS SETTI
 
 <b>
 
-MAIN MENU
-
-![Image](https://github.com/user-attachments/assets/3f647f6b-d5ce-4774-b015-31221b9815b4)
-
 
 [ SERVICES ] <br>
 <br>
@@ -85,6 +80,7 @@ MAIN MENU
 ✅ SSH WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ SQUID PROXY 3128<br>
 ✅ XRAY VMESS & VLESS WEBSOCKET TLS & NON-TLS 443/80<br>
+✅ XRAY VLESS WEBSOCKET NONE TLS MULTIPATH 8080<br>
 ✅ XRAY VLESS XTLS VISION 443<br>
 ✅ XRAY TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
 ✅ WIREGUARD 5820<br>
